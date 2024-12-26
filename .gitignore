@@ -1,3 +1,5 @@
+latex/
 .DS_Store
 *.pdf
 .env
+.bib
