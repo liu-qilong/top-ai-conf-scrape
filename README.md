@@ -27,3 +27,10 @@ password='<your OpenReview password>'
 - CVPR, ICCV, ECCV has to be scraped with from each conference's website. Publication type (oral/highlight/poster) info has to be scraped from specific pages. Therefore , these notebooks are more complex.
 
 It should be relatively easy to adapt these notebooks to scrape other conferences, as long as they have a similar structure.
+
+To run these notebooks, first git clone this repository and then:
+
+```bash
+conda env create -f environment.yml
+conda activate top-ai-conf-scrape
+```
