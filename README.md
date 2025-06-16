@@ -1,6 +1,6 @@
-# Top conferences scrape
+# Top AI conferences scraping
 
-This repository contains Jupyter notebooks to scrape ALL PAPER's BibTeX from selected top conferences. Currently:
+This repository contains Jupyter notebooks to scrape **ALL PAPERS**' BibTeX from selected top conferences:
 
 - [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)
 - [ICLR 2025](https://iclr.cc/Conferences/2025)
@@ -25,3 +25,5 @@ password='<your OpenReview password>'
 ```
 
 - CVPR, ICCV, ECCV has to be scraped with from each conference's website. Publication type (oral/highlight/poster) info has to be scraped from specific pages. Therefore , these notebooks are more complex.
+
+It should be relatively easy to adapt these notebooks to scrape other conferences, as long as they have a similar structure.
