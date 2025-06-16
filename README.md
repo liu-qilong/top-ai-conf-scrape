@@ -8,7 +8,7 @@ This repository contains Jupyter notebooks to scrape **ALL PAPERS**' BibTeX from
 
 You can find them in the `output/` folder:
 
-- `<conf><year>.bib`: BibTeX files for each conference and year. For example, `iccv2023.bib` contains all papers from ICCV 2023.
+- `<conf><year>.bib`: BibTeX files for each conference and year. For example, `cvpr2025.bib` contains all papers from CVPR 2025.
 - `<conf><year>.md`: accompanying the BibTeX files, Markdown files are also generated for easier reading, e.g. with Obsidian.
 
 > **Paper abstracts** are included in the Markdown files, making it farily easy to skim through the papers. However, abstract are omitted from the BibTeX files, in case any special symbols causing issues with LaTeX compilation.
